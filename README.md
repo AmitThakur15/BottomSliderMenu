@@ -14,11 +14,18 @@ Steps
  
  3. Add this code snippet in your viewcontroller file
  
+ 
+ 
  ->     let sliderMenu: SliderMenu = {
         let sm = SliderMenu()
         return sm
        }()
        
+       
+       
 
   4. Inside your button click mehtod add this line
+  
+  
+  
   -> sliderMenu.showSliderMenu()
